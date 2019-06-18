@@ -45,7 +45,7 @@ class Application
       @@cart << add_item
       return "added #{add_item}"
     else
-      return "#{add_item} is already in the cart"
+      return "We don't have that item"
     end
   end
 end

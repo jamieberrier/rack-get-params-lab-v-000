@@ -43,7 +43,7 @@ class Application
     if @@items.include?(add_item)
       return "#{search_term} is one of our items"
     else
-      return "Couldn't find #{search_term}"
+      return "#{add_item} is already in the cart"
     end
   end
 end

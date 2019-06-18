@@ -41,7 +41,7 @@ class Application
 
   def handle_add(add_item)
     if @@items.include?(add_item)
-      return "#{search_term} is one of our items"
+      
     else
       return "#{add_item} is already in the cart"
     end
